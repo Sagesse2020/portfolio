@@ -1,0 +1,140 @@
+/* 🌐 Style général */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f8fafc;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+/* 🧭 En-tête */
+header {
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #94a3b8;
+  margin-bottom: 20px;
+}
+
+/* 🔗 Menu */
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: #f1f5f9;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+nav a.active {
+  color: #38bdf8;
+  border-bottom: 2px solid #38bdf8;
+  padding-bottom: 2px;
+}
+
+/* 🧱 Section d’intro */
+#intro {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#intro h2 {
+  color: #0f172a;
+  font-size: 1.8rem;
+}
+
+#intro p {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 1rem;
+  color: #334155;
+}
+
+.btn {
+  background-color: #0ea5e9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0369a1;
+}
+
+/* 💬 Section Contact */
+.contact {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.contact h2 {
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.contact a {
+  color: #0ea5e9;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* 🦶 Pied de page */
+footer {
+  background-color: #0f172a;
+  color: #94a3b8;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 50px;
+}
+
+footer a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* 📱 Responsive (mobile) */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px;
+  }
+
+  #intro h2 {
+    font-size: 1.4rem;
+  }
+}
